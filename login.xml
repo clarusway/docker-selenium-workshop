@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Login Test Plan">
+    <test name="Positive login test">
+        <classes>
+            <class name="gui.auth.DSWTest1"/>
+        </classes>
+    </test>
+    <test name="Negative login test">
+        <classes>
+            <class name="gui.auth.DSWTest2"/>
+        </classes>
+    </test>
+</suite>

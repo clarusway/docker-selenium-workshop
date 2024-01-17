@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Plan" parallel="classes" thread-count="2">
+    <test name="Positive login test">
+        <classes>
+            <class name="gui.auth.DSWTest1"/>
+            <class name="gui.auth.DSWTest2"/>
+        </classes>
+    </test>
+</suite>
